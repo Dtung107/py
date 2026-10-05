@@ -20,7 +20,7 @@ version = 1.0
 
 # (list) Application requirements
 # LƯU Ý: Chỉ sử dụng các thư viện cần thiết để tránh lỗi biên dịch
-requirements = python3,kivy,cython==0.29.33
+requirements = python3,kivy==2.3.0
 
 # (str) Supported orientations
 orientation = portrait
@@ -39,7 +39,7 @@ android.api = 33
 android.minapi = 21
 
 # (str) Android NDK version to target
-android.ndk = 25c
+android.ndk = 25b
 
 # (str) Android NDK API level to target
 android.ndk_api = 21
@@ -51,7 +51,7 @@ android.gradle_dependencies =
 android.copy_libs = 1
 
 # (str) The Android arch to build for, choices: armeabi-v7a, arm64-v8a, x86, x86_64
-android.archs = arm64-v8a,armeabi-v7a
+android.archs = arm64-v8a
 
 # (bool) Enable AndroidX support
 android.enable_androidx = True
