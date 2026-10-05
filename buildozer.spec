@@ -65,7 +65,7 @@ android.enable_androidx = True
 # (bool) Copy library instead of making a libpymodules.so
 #android.copy_libs = 1
 
-# (str) The Android arch to build for, choices: armeabi-v7a, arm64-v8a, x86, x86_64
+# (str) The Android arch to build for, choices: arm64-v8a, 
 android.archs = arm64-v8a
 
 # (bool) Enable AndroidX support
